@@ -1,0 +1,14 @@
+@import 'custom-colors';
+@import 'custom-fonts';
+@import 'custom-margin-padding';
+@import 'custom-alignments';
+
+body,
+html {
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+@import 'header';
+@import 'main';

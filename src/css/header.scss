@@ -1,0 +1,22 @@
+header {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: $gz-color-primary;
+
+    nav {
+        ul {
+            list-style-type: none;
+
+            li {
+                color: $gz-color-eggwhite;
+                padding: 1em;
+            }
+
+            li:hover {
+                cursor: pointer;
+                color: $gz-color-lightyellow;
+            }
+        }
+    }
+}
